@@ -1,0 +1,12 @@
+server:
+  connection-timeout: 900000
+  session-timeout: 30000
+  tomcat.max-threads: 1000
+  tomcat.uri-encoding: UTF-8
+  tomcat.max-http-post-size: 10000000
+  tomcat.accept-count: 100
+  port: 8080
+
+#日志    
+logging:
+     config: classpath:log4j2-spring.xml
