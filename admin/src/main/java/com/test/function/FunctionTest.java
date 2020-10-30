@@ -64,7 +64,6 @@ public class FunctionTest {
         List<ActiveUserVo> list = new ArrayList();
         ActiveUserVo activeUserVo2=new ActiveUserVo();
         functionTest.newActiveInfo(activeUserVo2,activeUserVo ->list.add(activeUserVo));
-        System.out.println(activeUserVo2.toString());
         System.out.println(list.toString());
 
         functionTest.executeFunction(activeUserVo2, (x) -> {
